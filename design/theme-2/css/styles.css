@@ -74,7 +74,7 @@ a, a:hover, a:focus { color:#2b2b2b; text-decoration:none; outline: 0; }
 
 a p { color:#888; }
 .uppercase { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b}
-p { padding:0; line-height:1.6; font-weight:400; }
+p { padding:0; line-height:1.6; font-weight:400; color: #2b2b2b; font-size: 16px; }
 p.sub-heading { display: block; max-width: 424px; font-size:18px; padding-bottom:31px; padding-right:20px; line-height:1.5 }
 .centered p.sub-heading { padding-bottom:51px; padding-right:0px; margin: 0 auto; }
 .small { font-size:13px; }
@@ -186,7 +186,7 @@ header { position:relative; z-index: 1099; width:100%; background:#fff; padding:
 .bg-image-3 { background:url(../images/fullscreen.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 /* fullscreen intro */
-.intro { height:100%; width:100%; background:url(../images/fullscreen14.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; }
+.intro { height:100%; width:100%; background:url(../images/header-photo.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; }
 
 .parallax { background-attachment:fixed; }
 
@@ -500,4 +500,8 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .header-phone {
     font-weight: bold;
     padding-left: 20px;
+}
+
+.client img {
+    padding-left: 30px;
 }
