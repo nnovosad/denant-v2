@@ -509,3 +509,8 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .subtitle {
     margin-left: 150px!important;
 }
+
+.contact-list li {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
