@@ -505,3 +505,7 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .client img {
     padding-left: 30px;
 }
+
+.subtitle {
+    margin-left: 150px!important;
+}
