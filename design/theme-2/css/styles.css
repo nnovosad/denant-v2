@@ -114,7 +114,7 @@ a.link:hover::after, p a:hover::after, ul.unordered-list li a:hover::after, ul.c
 #logo { display:block; display:table; height:52px; position:relative; margin:0; float:left }
 #logo a { display:block; background:url(../images/bg-logo@2x.png) center no-repeat; background-size:60px 52px; width:60px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
 .tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; }
-.tagline span { display: table-cell; vertical-align: middle; }
+.tagline span { display: table-cell; vertical-align: middle; font-size: 18px; }
 h2, h3, h4, h5 { font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b; line-height:1.25; font-weight:600; }
 .dark h2, .dark h3, .dark h4, .dark h5, .dark p { color:#fff; }
 h1 { font-size:60px; line-height:1.2; letter-spacing:-1px; margin-top:0px; }
@@ -162,7 +162,7 @@ nav { margin:0px auto; position:relative; display:table; height:52px; float:righ
 #nav li { float:left; margin:0px 0px 0px 30px; cursor:pointer; position:relative }
 #nav li a { color:#333; font-family: "Raleway", Arial, Helvetica, sans-serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
 #nav li:hover a { color:#333; }
-#nav li a { position:relative; color:#2b2b2b; }
+#nav li a { position:relative; color:#2b2b2b; font-size: 14px; }
 #nav li a::after { content:""; background:#2b2b2b; bottom:5px; display:block; left:0%; margin-left:-1px; height:1px; position:absolute; -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; width:0; }
 #nav li a:hover::after { left:0; width:100%; color:#2b2b2b; }
 #nav li.active a::after { left:0; width:100%; }
@@ -175,7 +175,7 @@ nav { margin:0px auto; position:relative; display:table; height:52px; float:righ
 header { position:relative; z-index: 1099; width:100%; background:#fff; padding:16px 35px 14px; }
 #undefined-sticky-wrapper { /*position:fixed;*/ z-index:200; width:100% }
 .container { position:relative; margin:0 auto; }
-.section { position:relative; padding:114px 0 97px 0; display:block; }
+.section { position:relative; padding:114px 0 0 0; display:block; }
 #ancor2, #ancor3, #ancor4, #ancor5, #ancor6, #ancor7, #ancor8 { position:absolute; top:-78px; }
 #section1 { display:block; height:100%; width:100%; border:0; }
 .section.white-bg { background:#fff; }
@@ -459,7 +459,7 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .price-table.highlighted p.price { font-size:72px; }
 .price-table.highlighted p.price, .price-table.highlighted p.price span {  font-weight:600; }
 .line-through { text-decoration: line-through; color:#bbb }
-.price-table .price-details { line-height:2.0 }
+.price-table .price-details { line-height:2.0; padding-top: 30px; font-size: 20px; color: #2b2b2b; }
 .heading:after { background:#fff; bottom:-5px; content:""; height:12px; left:50%; margin-left:-6px; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; }
 .heading:before { background:none repeat scroll 0 0 rgba(221, 221, 221, 1); bottom:-7px; content:""; height:12px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; margin-left:-6px; }
 .heading { padding:10px 0px 12px; margin-top:20px; position:relative; background:#fff; color:#2b2b2b; border-bottom:1px solid #d8d8d8; }
@@ -495,3 +495,9 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .bordered-content.more-info { padding-top:35px; }
 /* =End Ajax
 --------------------------------------------------------------------------------------------------------*/
+
+/* Custom styles */
+.header-phone {
+    font-weight: bold;
+    padding-left: 20px;
+}
