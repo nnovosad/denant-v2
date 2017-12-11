@@ -523,3 +523,8 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 #roadmap {
     margin-top: 20px;
 }
+
+.left-related-company {
+    border-right: 1px solid;
+    padding-right: 30px;
+}
