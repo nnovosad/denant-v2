@@ -528,3 +528,15 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
     border-right: 1px solid;
     padding-right: 30px;
 }
+
+.employees {
+    color: #2b2b2b;
+}
+
+.employees li {
+    padding-bottom: 5px;
+}
+
+.employees li a:hover {
+    text-decoration: underline!important;
+}
