@@ -540,3 +540,14 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .employees li a:hover {
     text-decoration: underline!important;
 }
+
+.documents img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.document-link {
+    text-align: center;
+}
