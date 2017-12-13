@@ -93,7 +93,7 @@ blockquote .borderline.top { margin-top:0; margin-bottom:20px; }
 .dark blockquote p.small { color:#fff; }
 .element blockquote .questionmark { text-align:left; }
 
-.divider { background:#2b2b2b; height:3px; width:45px; display:inline-block; position:relative; margin:22px 0 20px; }
+.divider { background:#337ab7; height:3px; width:45px; display:inline-block; position:relative; margin:22px 0 20px; }
 .long-line { background:#2b2b2b; height:2px; width:25px; display:inline-block; position:relative; margin:11px 20px 0px; float:left; }
 .short-line { background:#2b2b2b; height:1px; width:15px; display:inline-block; position:relative; margin:0px 10px; top:-3px}
 
@@ -115,7 +115,7 @@ a.link:hover::after, p a:hover::after, ul.unordered-list li a:hover::after, ul.c
 #logo a { display:block; background:url(../images/bg-logo@2x.png) center no-repeat; background-size:60px 52px; width:60px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
 .tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; }
 .tagline span { display: table-cell; vertical-align: middle; font-size: 18px; }
-h2, h3, h4, h5 { font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b; line-height:1.25; font-weight:600; }
+h2, h3, h4, h5 { font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#337ab7; line-height:1.25; font-weight:600; }
 .dark h2, .dark h3, .dark h4, .dark h5, .dark p { color:#fff; }
 h1 { font-size:60px; line-height:1.2; letter-spacing:-1px; margin-top:0px; }
 h2 { font-size:48px; line-height:1.25; letter-spacing:-1px; margin-top:0px; }
@@ -162,7 +162,7 @@ nav { margin:0px auto; position:relative; display:table; height:52px; float:righ
 #nav li { float:left; margin:0px 0px 0px 30px; cursor:pointer; position:relative }
 #nav li a { color:#333; font-family: "Raleway", Arial, Helvetica, sans-serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
 #nav li:hover a { color:#333; }
-#nav li a { position:relative; color:#2b2b2b; font-size: 14px; }
+#nav li a { position:relative; color:#337ab7; font-size: 14px; }
 #nav li a::after { content:""; background:#2b2b2b; bottom:5px; display:block; left:0%; margin-left:-1px; height:1px; position:absolute; -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; width:0; }
 #nav li a:hover::after { left:0; width:100%; color:#2b2b2b; }
 #nav li.active a::after { left:0; width:100%; }
@@ -389,9 +389,9 @@ i.fa { margin-right:3px; color:#2b2b2b }
 --------------------------------------------------------------------------------------------------------*/
 .full_width_gallery { width: 100%; margin-top: 5px; }
 .centralizer { margin: 0 auto; text-align: center; font-size: 0;}
-.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #2b2b2b; border:solid 2px #2b2b2b; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; }
+.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #337ab7; border:solid 2px  #337ab7; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; }
 .centered .button { margin-left:5px; margin-right:5px; }
-.button:hover, .send-btn:hover { background:#2b2b2b; color:#fff; }
+.button:hover, .send-btn:hover { background:#337ab7; color:#fff; }
 
 .button i { margin-right:3px; }
 .button:hover i { color:#fff; }
