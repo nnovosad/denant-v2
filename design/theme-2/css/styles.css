@@ -207,7 +207,7 @@ header { position:relative; z-index: 1099; width:100%; background:#fff; padding:
 
 /*only for webkit  browsers*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    .intro, .parallax { 
+    .intro, .parallax {
         background-attachment: scroll;
     }
 }
@@ -507,7 +507,28 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 }
 
 .subtitle {
-    margin-left: 150px!important;
+    display: block;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 35px;
+}
+
+@media (min-width: 768px) {
+    .subtitle {
+        width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .subtitle {
+        width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .subtitle {
+        width: 1170px
+    }
 }
 
 .contact-list li {
@@ -570,4 +591,8 @@ h4 {
 
 .document-link-requisites {
     padding-top: 10px;
+}
+
+.client-block {
+    padding: 50px 0 50px 0;
 }
