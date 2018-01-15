@@ -1,0 +1,1 @@
+<sup><a onclick="return false;" href="#" title="<?php _e("If your Wordpress gets broken, you will need to know direct link to a backup to restore without Wordpress. Enable this option to have direct links emailed to you after each backup is complete. Multiple emails allowed, separated by space, comma, or semicolumn", ANYWAY_TEXTDOMAIN); ?>">?</a></sup>

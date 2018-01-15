@@ -1,0 +1,85 @@
+/* style */
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+#mysql-error, #mysql-success, #destination-error, #destination-success {
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+#anyway-advanced-button, #anyway-download-button {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#anyway-button {
+    overflow: hidden;
+    display: block;
+    margin: 10px auto;
+}
+
+#anyway-button:focus {
+    outline: none;
+}
+
+#step1 {
+    text-align: center;
+}
+
+#anyway-progress {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+#anyway-progress li {
+    white-space:nowrap;
+    text-align: left;
+}
+
+#anyway-progress .complete {
+    color: lightgreen;
+    text-decoration: line-through;
+}
+
+/* stack trace */
+.anyway-notice {
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 5px 15px 2px;
+    padding: 8px 12px;
+    border-left: 4px solid #dc3232;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.anyway-notice .action {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    color: #b4b9be;
+    cursor: pointer;
+}
+
+.anyway-notice .action a {
+    color: red;
+}
+
+.anyway-notice .stack-trace {
+    display: none;
+}
+
+.anyway-notice .stack-trace textarea {
+    width: 100%;
+}

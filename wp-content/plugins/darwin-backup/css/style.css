@@ -1,0 +1,158 @@
+/* progressbar */
+.ui-progressbar {
+    position: relative;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    background-color: lightgreen;
+}
+
+.ui-progressbar .ui-widget-header {
+    background: lightgreen;
+}
+
+.progress-stage, .progress-value {
+    position: absolute;
+    width: 50%;
+    top: 4px;
+}
+
+.progress-stage {
+    text-align: left;
+    left: 50%;
+    padding-left: 4px;
+}
+
+.progress-value {
+    text-align: right;
+}
+
+/* link */
+
+#link input {
+    width: 100%;
+    padding: 4px;
+    border: 0;
+}
+
+/* include uploads block */
+.include-uploads {
+    margin-top: 6px;
+}
+
+.include-uploads label {
+    vertical-align: baseline;
+}
+
+/* dialog */
+.ui-widget-overlay {
+    z-index: 300001;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.ui-dialog {
+    z-index: 300002;
+}
+/* tooltip */
+.ui-tooltip {
+    z-index: 300003;
+}
+
+/* list */
+#darwin-backup-list .column-date {
+    width: 60%;
+}
+
+#darwin-backup-list .label {
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* buttons */
+#anyway-button-start,
+#anyway-button-cancel,
+#anyway-button-mail-dialog,
+#anyway-button-download,
+#anyway-button-clipboard {
+    float: left;
+    margin-right: 4px;
+}
+
+#anyway-button-skip,
+#anyway-button-continue {
+    float: right;
+}
+
+.wp-core-ui .button.anyway-button {
+    margin: 10px auto;
+}
+
+/* initially invisible elements */
+#link,
+#dialog,
+#dialog-mail,
+#anyway-button-cancel,
+#anyway-button-mail-dialog,
+#anyway-button-clipboard,
+#anyway-button-continue,
+#anyway-button-download {
+    display: none;
+}
+
+/* email dialog */
+#dialog-mail .form-table th {
+    width: auto;
+}
+
+#dialog-mail .error {
+    line-height: 19px;
+    padding: 11px 15px;
+}
+
+/* stack trace */
+.anyway-notice {
+    position: relative;
+}
+
+.anyway-notice .action {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    color: #b4b9be;
+    cursor: pointer;
+}
+
+.anyway-notice .action a {
+    color: red;
+}
+
+.anyway-notice .stack-trace {
+    display: none;
+}
+
+.anyway-notice .stack-trace textarea {
+    width: 100%;
+}
+
+/* scheduling */
+input[name=retain] {
+    width: 60px;
+}
+
+.schedule #anyway-button-cancel {
+    display: block;
+    float: right;
+}
+
+input[name=send-mail], label[for=send-mail] {
+    vertical-align: top;
+}

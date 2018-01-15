@@ -1,0 +1,1 @@
+<sup><a onclick="return false;" href="#" title="<?php _e("The uploads folder will contain mostly images and video. This is typically not necessary for most common restores - as in the case of a plugin or Wordpress update gone bad. Backing up the uploads folder is only recommended if you wish to copy your site", ANYWAY_TEXTDOMAIN); ?>">?</a></sup>
