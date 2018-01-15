@@ -124,3 +124,5 @@ function load_scripts() {
     wp_script_add_data('ie-js-html', 'conditional', 'lt IE 9');
 }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
+
+require get_template_directory().'/inc/custom-metaboxes.php';
