@@ -248,7 +248,7 @@ jQuery(function($) {
 
 
     $('#nav').onePageNav({
-        currentClass: 'active',
+        currentClass: 'active'
 //    scrollOffset: 0
     });
 
