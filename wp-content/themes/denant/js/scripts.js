@@ -49,4 +49,31 @@ jQuery(function($) {
         });
 
     });
+
+    $(document).ready(function(){
+        if(window.location.hash) { //If page loads with hash
+            scrollToID(window.location.hash);
+        }
+
+        //$('section').scroll(function(){
+        $(window).scroll(function () {
+            //console.log($(this).attr('id'));
+            console.log($(this).attr('id'));
+        });
+
+        $('a[href^="#"]').click(function(event){ //Only target links that start with #
+            event.preventDefault();
+            scrollToID($(this).attr('href'));
+        });
+    });
+
+    function scrollToID(ID){
+        $('#nav > li').removeClass('active');
+        $('a[href="' + ID + '"]').parent().addClass('active');
+        var navOffset = ($(window).width() > 979) ? 93 : 0; //adjust this if you have a fixed header with responsive design
+        $('html, body').animate({
+            'scrollTop': $(ID).offset().top - navOffset
+        }, 'slow');
+    }
+
 });
