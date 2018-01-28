@@ -125,4 +125,44 @@ function load_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
+add_action('customize_register', function($customizer){
+    $customizer->add_section(
+        'settings_denant',
+        array(
+            'title' => 'Настройки Денант',
+            'description' => 'Телефон и лого',
+            'priority' => 35,
+        )
+    );
+    $customizer->add_setting(
+        'item_phone',
+        array('default' => '+375(152)60-50-66')
+    );
+
+    $customizer->add_control(
+        'item_phone',
+        array(
+            'label' => 'Телефон',
+            'section' => 'settings_denant',
+            'type' => 'text',
+        )
+    );
+
+    $customizer->add_setting(
+        'item_logo'
+    );
+
+    $customizer->add_control(
+        'item_logo',
+        array(
+            'label' => 'Логотип',
+            'section' => 'settings_denant',
+            'type' => 'file',
+        )
+    );
+});
+
+/**
+ * Metaboxes additions.
+ */
 require get_template_directory().'/inc/custom-metaboxes.php';
