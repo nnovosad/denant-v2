@@ -352,7 +352,7 @@ function contact_post_metabox() {
      */
     $cmb = new_cmb2_box( array(
         'id' => 'contact_metabox_block',
-        'title' => __('Партнеры', 'cmb2'),
+        'title' => __('Контакты', 'cmb2'),
         'object_types' => array('page'), // Post type
         'context' => 'normal',
         'priority' => 'high',

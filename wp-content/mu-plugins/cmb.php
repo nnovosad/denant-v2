@@ -24,7 +24,7 @@ function denant_cpt_metaboxes(array $meta_boxes)
 
     $meta_boxes['staff-block'] = array(
         'id' => 'staff-block',
-        'title' => __('Сотрудники', 'cmb2'),
+        'title' => __('Информация о сотруднике', 'cmb2'),
         'object_types' => array('staff'), // Post type
         'context' => 'normal',
         'priority' => 'high',
@@ -60,7 +60,7 @@ function denant_cpt_metaboxes(array $meta_boxes)
                 ),
                 'fields' => array(
                     array(
-                        'name' => __('Speaker', 'cmb2'),
+                        'name' => __('Номер телефона', 'cmb2'),
                         'id' => $prefix . 'staff_phone_item',
                         'type' => 'text',
                     ),
