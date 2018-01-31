@@ -1,6 +1,6 @@
 #contact { display: block; width: auto; margin: 0; padding: 0px; border: none; overflow:hidden; padding-right:30px; }
 .blog #contact { margin-top:0px; margin-bottom:10px; padding-right:0px;  }
-#contact label { display: none; float: none; height:0px; }
+/*#contact label { display: none; float: none; height:0px; }*/
 
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
@@ -13,8 +13,8 @@ input, textarea, select {  border:0; float:none; display:block; -webkit-appearan
 
 #contact textarea { resize: none;}
 input:focus, textarea:focus, select:focus {  }
-input.submit { border:2px solid #337ab7 !important; color:#337ab7; padding: 13px 25px 14px; margin: 10px 0 0px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; width:100%; background:none !important; }
-input.submit:hover { background:#337ab7 !important; color:#fff; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+/*input.submit { border:2px solid #337ab7 !important; color:#337ab7; padding: 13px 25px 14px; margin: 10px 0 0px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; width:100%; background:none !important; }*/
+/*input.submit:hover { background:#337ab7 !important; color:#fff; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }*/
 
 .hide {float:right; }
 #contact fieldset { padding-left:0px;}
@@ -28,10 +28,33 @@ input, textarea {
     border-radius: 0;
 }
 textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hidden"]):not([type="button"]):not([type="submit"]):not([type="image"]){
-  background-color: #fff;
-  border:0;  
+  /*background-color: #fff;*/
+  border: 1px solid #cecece;
   margin-right: 0;
-  width: 100%;
+  width: 50%;
  /* font: 15px 'Inconsolata', Georgia, "Times New Roman", Times, serif;*/
-  padding: 17px 20px 18px 20px;
+  padding: 10px;
+  background: #F6F6f6;
+  border-radius: 10px;
+}
+
+#contact input[type=button] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    width: 50%!important;
+}
+
+.nf-form-title {
+    display: none;
+}
+
+.nf-form-fields-required {
+    margin-bottom: 20px;
 }

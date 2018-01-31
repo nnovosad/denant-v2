@@ -343,18 +343,19 @@
     <div class="container clearfix">
         <div class="col-lg-8 col-md-6 col-sm-6">
             <div id="contact">
-                <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">
-                    <fieldset>
-                        <label for="name" accesskey="U"><span class="required">Your Name</span></label>
-                        <input name="name" type="text" id="name" title="Your Name" />
-                        <label for="email" accesskey="E"><span class="required">Email</span></label>
-                        <input name="email" type="text" id="email" title="Email" />
-                        <label for="comments" accesskey="C"><span class="required">Tell us what you think!</span></label>
-                        <textarea name="comments" id="comments" title="Tell us what you think!"></textarea>
-                        <input type="submit" class="submit" id="submit" value="Submit" />
-                        <span id="message"></span>
-                    </fieldset>
-                </form>
+                <?php echo do_shortcode("[ninja_form id=2]"); ?>
+<!--                <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">-->
+<!--                    <fieldset>-->
+<!--                        <label for="name" accesskey="U"><span class="required">Your Name</span></label>-->
+<!--                        <input name="name" type="text" id="name" title="Your Name" />-->
+<!--                        <label for="email" accesskey="E"><span class="required">Email</span></label>-->
+<!--                        <input name="email" type="text" id="email" title="Email" />-->
+<!--                        <label for="comments" accesskey="C"><span class="required">Tell us what you think!</span></label>-->
+<!--                        <textarea name="comments" id="comments" title="Tell us what you think!"></textarea>-->
+<!--                        <input type="submit" class="submit" id="submit" value="Submit" />-->
+<!--                        <span id="message"></span>-->
+<!--                    </fieldset>-->
+<!--                </form>-->
             </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
