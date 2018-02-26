@@ -300,7 +300,7 @@ a:hover .covering-image {  background:rgba(47, 47, 46, 0.4); -webkit-transition:
 
 .more-info .social-list { padding-top:5px; padding-bottom:10px; }
 .more-info .social-list li a i { font-size:18px; }
-i.fa { margin-right:3px; color:#fff }
+i.fa { margin-right:2px; color:#fff }
 .social-list.alignright i.fa { margin-left:3px; }
 
 .covering-image i.fa, .dark i.fa { color:#fff; }
@@ -626,7 +626,7 @@ h4 {
     border-top: none!important;
     padding: 0 5px 0 10px;
     position: relative;
-    height: 210px;
+    height: 180px;
     margin-bottom: 50px;
     width: 85%;
     border-color: #337ab7;
