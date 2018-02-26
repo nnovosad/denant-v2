@@ -93,6 +93,7 @@ function load_scripts() {
     wp_enqueue_style('font-google1', 'http://fonts.googleapis.com/css?family=Inconsolata:400,400italic,600,700');
     wp_enqueue_style('font-google2', 'http://fonts.googleapis.com/css?family=Raleway:300,400,400italic,600,700');
 
+
     wp_enqueue_style( 'reset', get_template_directory_uri() . '/css/reset.css', array(), '1.0.0', 'all' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '1.0.0', 'all' );
     wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '1.0.0', 'all' );

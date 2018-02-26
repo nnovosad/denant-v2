@@ -57,4 +57,9 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
 
 .nf-form-fields-required {
     margin-bottom: 20px;
+    color:#fff;
+}
+
+.nf-field-label {
+    color: #fff!important;
 }

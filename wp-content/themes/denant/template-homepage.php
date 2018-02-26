@@ -71,8 +71,7 @@
                     Негабаритные 1<br />
                     Негабаритные 2<br />
                     Негабаритные 3<br />
-                    Негабаритные 4<br />
-                    Негабаритные 5</p>
+                    Негабаритные 4</p>
             </figure>
         </div>
 
@@ -200,9 +199,9 @@
                         <h5>Владимир Жук</h5>
                         <p>Логист</p>
                         <ul class="employees">
-                            <li> <i class="fa fa-phone"></i> +375(33)679-07-90 (Viber/WhatsApp/Telegram) </li>
+                            <li> <i class="fa fa-phone"></i> +375(33)679-07-90 (Viber) </li>
                             <li> <i class="fa fa-phone"></i> +375(44)553-24-25 (Велком) </li>
-                            <li> <i class="fa fa-pencil"></i> <a href="mailto:vladimirzhuk790@gmail.com">vladimirzhuk790@gmail.com</a></li>
+                            <li> <i class="fa fa-pencil"></i><a href="mailto:vladimirzhuk790@gmail.com">vladimirzhuk790@gmail.com</a></li>
                             <li> <i class="fa fa-skype"></i> <a href="skype:vladimirzhuk790">vladimirzhuk790</a></li>
                         </ul>
                     </div>

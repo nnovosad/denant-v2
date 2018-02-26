@@ -73,7 +73,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* =3. Typography
 --------------------------------------------------------------------------------------------------------*/
 html { overflow: -moz-scrollbars-vertical; overflow-y: scroll;  height:100%; width:100%; overflow-x:hidden; }
-body { font-size: 15px; font-family:'Inconsolata', Arial, Helvetica, sans-serif; color:#888; background:#f8f8f7; height:100%; width:100%; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing: antialiased;  }
+body { font-size: 15px; font-family:Graphik, Arial, Helvetica, sans-serif; color:#888; background:#f8f8f7; height:100%; width:100%; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing: antialiased;  }
 strong { font-weight:700; }
 a, a > * { -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 a, a:hover, a:focus { color:#2b2b2b; text-decoration:none; outline: 0; }
@@ -82,7 +82,7 @@ a, a:hover, a:focus { color:#2b2b2b; text-decoration:none; outline: 0; }
 *:after, *:before { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
 
 a p { color:#888; }
-.uppercase { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b}
+.uppercase { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b}
 p { padding:0; line-height:1.6; font-weight:400; color: #2b2b2b; font-size: 16px; }
 p.sub-heading { display: block; max-width: 424px; font-size:18px; padding-bottom:31px; padding-right:20px; line-height:1.5 }
 .centered p.sub-heading { padding-bottom:51px; padding-right:0px; margin: 0 auto; }
@@ -92,10 +92,10 @@ p.no-border a { border:0 }
 
 blockquote { padding:12px 0px 22px 0px; margin:0; border:0; position:relative; }
 .element blockquote { padding:10px 0; }
-blockquote p { color:#2b2b2b; font-size:26px; line-height:1.35; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; font-weight:600; font-style:italic; }
-blockquote p.small { border:0; padding-top:3px; margin-top:10px; font-style:normal; font-size:15px;font-family:'Inconsolata', Georgia, "Times New Roman", Times, serif; color:#999; font-weight:400; }
+blockquote p { color:#2b2b2b; font-size:26px; line-height:1.35; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; font-weight:600; font-style:italic; }
+blockquote p.small { border:0; padding-top:3px; margin-top:10px; font-style:normal; font-size:15px;font-family:Graphik, Georgia, "Times New Roman", Times, serif; color:#999; font-weight:400; }
 blockquote .small::before, blockquote footer::before, blockquote small::before { content: "" }
-blockquote .questionmark { text-align:center; width:100%; font-family:Georgia, Verdana, sans-serif; color:#2b2b2b; font-size:72px; line-height:1; font-style:normal; height:52px; }
+blockquote .questionmark { text-align:center; width:100%; font-family:Graphik, Georgia, Verdana, sans-serif; color:#2b2b2b; font-size:72px; line-height:1; font-style:normal; height:52px; }
 .dark blockquote .questionmark { color:#fff; opacity:0.7 }
 blockquote .borderline { width:50px; margin:0 auto; margin-top:32px; }
 blockquote .borderline.top { margin-top:0; margin-bottom:20px; }
@@ -106,7 +106,7 @@ blockquote .borderline.top { margin-top:0; margin-bottom:20px; }
 .long-line { background:#2b2b2b; height:2px; width:25px; display:inline-block; position:relative; margin:11px 20px 0px; float:left; }
 .short-line { background:#2b2b2b; height:1px; width:15px; display:inline-block; position:relative; margin:0px 10px; top:-3px}
 
-a.link, p a, ul.unordered-list li a, ul.contact-list li a { position:relative; color:#2b2b2b; }
+a.link, p a, ul.unordered-list li a, ul.contact-list li a { position:relative; color:#fff; }
 a.link::after, p a::after, ul.unordered-list li a::after, ul.contact-list li a::after { content:""; background:#2b2b2b; bottom:-1px; display:block; left:0%; height:1px; position:absolute; -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; width:0; }
 a.link:hover::after, p a:hover::after, ul.unordered-list li a:hover::after, ul.contact-list li a:hover::after { left:0; width:100%; color:#2b2b2b;}
 
@@ -122,14 +122,14 @@ a.link:hover::after, p a:hover::after, ul.unordered-list li a:hover::after, ul.c
 --------------------------------------------------------------------------------------------------------*/
 #logo { display:block; display:table; height:52px; position:relative; margin:0; float:left }
 #logo a { display:block; background:url(/wp-content/themes/denant/images/bg-logo@2x.png) center no-repeat; background-size:60px 52px; width:60px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
-.tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; }
+.tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; color: #fff; }
 .tagline span { display: table-cell; vertical-align: middle; font-size: 18px; }
-h2, h3, h4, h5 { font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; color:#337ab7; line-height:1.25; font-weight:600; }
+h2, h3, h4, h5 { font-family: Graphik, Georgia, Verdana, sans-serif; color:#337ab7; line-height:1.25; font-weight:600; }
 .dark h2, .dark h3, .dark h4, .dark h5, .dark p { color:#fff; }
 h1 { font-size:60px; line-height:1.2; letter-spacing:-1px; margin-top:0px; }
 h2 { font-size:48px; line-height:1.25; letter-spacing:-1px; margin-top:0px; }
 .element h2 { font-size:40px; }
-h3 { font-size:40px; line-height:1.3; margin:0px; }
+h3 { font-size:40px; line-height:1.3; margin:0px; font-family: Graphik, Georgia, Verdana, sans-serif!important; }
 h4 { font-size:24px; line-height:1.35 }
 h5 { font-size:20px; line-height:1.4 }
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {color:#2b2b2b }
@@ -169,9 +169,9 @@ body.blog .more-info h4 { margin-bottom:10px; }
 nav { margin:0px auto; position:relative; display:table; height:52px; float:right; z-index:1000 }
 #nav { display: table-cell!important; vertical-align: middle; padding-top: 10px; }
 #nav li { float:left; margin:0px 0px 0px 30px; cursor:pointer; position:relative }
-#nav li a { color:#333; font-family: "Raleway", Arial, Helvetica, sans-serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
+#nav li a { color:#fff; font-family: Graphik, Georgia, Verdana, sans-serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
 #nav li:hover a { color:#333; }
-#nav li a { position:relative; color:#337ab7; font-size: 14px; }
+#nav li a { position:relative; color:#fff; font-size: 14px; }
 #nav li a::after { content:""; background:#2b2b2b; bottom:5px; display:block; left:0%; margin-left:-1px; height:1px; position:absolute; -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; width:0; }
 #nav li a:hover::after { left:0; width:100%; color:#2b2b2b; }
 #nav li.active a::after { left:0; width:100%; }
@@ -181,13 +181,13 @@ nav { margin:0px auto; position:relative; display:table; height:52px; float:righ
 
 /* =7. Main Content
 --------------------------------------------------------------------------------------------------------*/
-header { position:relative; z-index: 1099; width:100%; background:#fff; padding:16px 35px 14px; }
+header { position:relative; z-index: 1099; width:100%; background:#337ab7; padding:16px 35px 14px; }
 #undefined-sticky-wrapper { /*position:fixed;*/ z-index:200; width:100% }
 .container { position:relative; margin:0 auto; }
 .section { position:relative; padding:70px 0 0 0; display:block; }
 #ancor2, #ancor3, #ancor4, #ancor5, #ancor6, #ancor7, #ancor8 { position:absolute; top:-78px; }
 #section1 { display:block; height:100%; width:100%; border:0; }
-.section.white-bg { background:#fff; }
+.section.#fff-bg { background:#fff; }
 .section.header-section { height:510px; padding:0; }
 
 .bg-image-1 { background:url(../images/fullscreen10.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
@@ -282,7 +282,7 @@ img { box-shadow: #fff 0 0 0 }
 a:hover .covering-image {  background:rgba(47, 47, 46, 0.4); -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 .info-box-content { height:100%; width:100%; }
 .info-box-content .parent { height:100%; width:100%; padding:0px; }
-.covering-image h4, .covering-image p { color:#fff !important; background:none !important; display:inline-block; padding:0px; margin:0; margin-bottom:3px; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; white-space:nowrap;}
+.covering-image h4, .covering-image p { color:#fff !important; background:none !important; display:inline-block; padding:0px; margin:0; margin-bottom:3px; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; #fff-space:nowrap;}
 .covering-image h4 { font-size:27px; }
 .covering-image p { display:block; margin-bottom:0; }
 /* End Images
@@ -300,7 +300,7 @@ a:hover .covering-image {  background:rgba(47, 47, 46, 0.4); -webkit-transition:
 
 .more-info .social-list { padding-top:5px; padding-bottom:10px; }
 .more-info .social-list li a i { font-size:18px; }
-i.fa { margin-right:3px; color:#2b2b2b }
+i.fa { margin-right:3px; color:#fff }
 .social-list.alignright i.fa { margin-left:3px; }
 
 .covering-image i.fa, .dark i.fa { color:#fff; }
@@ -397,13 +397,13 @@ i.fa { margin-right:3px; color:#2b2b2b }
 --------------------------------------------------------------------------------------------------------*/
 .full_width_gallery { width: 100%; margin-top: 5px; }
 .centralizer { margin: 0 auto; text-align: center; font-size: 0;}
-.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #337ab7; border:solid 2px  #337ab7; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif; }
+.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #337ab7; border:solid 2px  #337ab7; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; }
 .centered .button { margin-left:5px; margin-right:5px; }
 .button:hover, .send-btn:hover { background:#337ab7; color:#fff; }
 
 .button i { margin-right:3px; }
 .button:hover i { color:#fff; }
-.centralizer > .button { width: auto; display: inline-block; margin-left:5px; margin-right:5px; white-space:nowrap }
+.centralizer > .button { width: auto; display: inline-block; margin-left:5px; margin-right:5px; #fff-space:nowrap }
 
 .dark .button { color:#fff; border:2px solid #fff; }
 
@@ -439,7 +439,7 @@ a:hover .blog-line::after { left:0; width:100%; }
 
 /* =13. Footer
 --------------------------------------------------------------------------------------------------------*/
-footer { min-height:100px; margin:0px 0px 0 0px; background:#2b2b2b; width:100%; }
+footer { min-height:100px; margin:0px 0px 0 0px; background:#000; width:100%; color: #fff; }
 footer .container { padding-top:39px; padding-bottom:39px; }
 footer .social-list { padding:0; }
 footer .social-list li { padding:0 0 0 10px; }
@@ -460,7 +460,8 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 
 /* =14. Price Tables
 --------------------------------------------------------------------------------------------------------*/
-.price-table { text-align:center; background:#fff; padding:10px 35px; padding-bottom:45px; margin:10px 0 25px; width:100%; }
+.price-table
+{ text-align:center; background:#337ab7; padding:10px 35px; padding-bottom:45px; margin:10px 0 25px; width:100%; color:#fff; border-radius: 10px;}
 .price-table h3 { padding-bottom:10px; }
 .price-table p.price { font-size:60px; color:#2b2b2b; letter-spacing:-2px; margin-left:-10px; font-weight:400; padding-top:15px; margin-bottom:0; padding-bottom:0;  }
 .price-table p.price span { font-size:18px; display:inline-block; padding-top:20px; padding-right:5px; font-weight:400; vertical-align:top }
@@ -470,7 +471,7 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 .price-table .price-details { line-height:2.0; padding-top: 30px; font-size: 20px; color: #2b2b2b; }
 .heading:after { background:#fff; bottom:-5px; content:""; height:12px; left:50%; margin-left:-6px; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; }
 .heading:before { background:none repeat scroll 0 0 rgba(221, 221, 221, 1); bottom:-7px; content:""; height:12px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; margin-left:-6px; }
-.heading { padding:10px 0px 12px; margin-top:20px; position:relative; background:#fff; color:#2b2b2b; border-bottom:1px solid #d8d8d8; }
+.heading { padding:10px 0px 12px; margin-top:20px; position:relative; color:#2b2b2b; border-bottom:1px solid #d8d8d8; }
 .price-table.highlighted .heading:before { background:none repeat scroll 0 0 rgba(43, 43, 43, 1); }
 .price-table.highlighted .heading { border-bottom:2px solid #2b2b2b; }
 .heading p.uppercase { padding-top:5px; margin-bottom:0px; position:relative }
@@ -571,11 +572,15 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 }
 
 .employees {
-    color: #2b2b2b;
+    color: #fff;
 }
 
 .employees li {
     padding-bottom: 5px;
+}
+
+.employees li a {
+    color: #fff;
 }
 
 .employees li a:hover {
@@ -594,7 +599,9 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 }
 
 h4 {
-    color: #2b2b2b!important;
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 22px!important;
 }
 
 .documents-requisites {
@@ -611,14 +618,15 @@ h4 {
 }
 
 .more-info {
-    background:#fff;
+    background:#337ab7;
+    color: #fff;
     font-size: 14px;
     text-align:left;
     border: 2px solid;
     border-top: none!important;
     padding: 0 5px 0 10px;
     position: relative;
-    height: 250px;
+    height: 210px;
     margin-bottom: 50px;
     width: 85%;
     border-color: #337ab7;
@@ -753,8 +761,13 @@ h4 {
 
 #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
     visibility: hidden;
+    background: #000;
 }
 
 .fadeInLeft, .fadeInDown, .fadeInRight, .fadeInUp, .bounceInDown, .fadeInLeftBig, .bounceInTop {
     visibility: visible!important;
+}
+
+p, h3 {
+    color: #fff!important;
 }
