@@ -10,17 +10,11 @@
     <div id="ancor2"></div>
     <div class="container clearfix">
         <div class="col-lg-12 col-md-4">
-            <h3>О нас</h3>
+            <h3><?php echo get_post_meta($post->ID, '_dat_about_title', true) ? : 'О нас'; ?></h3>
             <div class="divider"></div>
-            <p>ООО «ДенАнтТранс» — транспортно-экспедиционная компания. Наша компания успешно осуществляет свою деятельность на рынке международных грузоперевозок. Штат квалифицированных специалистов предлагает вам свои услуги в организации международных перевозок грузов любой сложности собственным и привлеченным автомобильным транспортом.
-                <br/><br/>
-                Направления нашей постоянной работы — транспортировка и экспедирования грузов из Беларуси в Россию, Казахстан, Украину, Венгрию, Сербию, Польшу, Чехию, Словакию, Хорватию, Германию, Голландию, Италию, Литву, Латвию, Эстонию и в обратном направлении.
-                <br/><br/>
-                Наша компания предоставляет услуги по доставке сборных грузов от 100 кг и более, грузов АДР класса, негабаритных грузов по вышеуказанным направлениям.
-                <br/><br/>
-                За время своей работы на рынке транспортных услуг, наша компания приобрела широкий круг партнёров и богатый опыт в транспортно-экспедиционном обслуживании самых различных видов грузов. Быстрота доставки, надёжность и удобство работы с нами, дополнительные сервисы, которые предоставляет наша компания — благодаря всему этому множество предприятий являются нашими постоянными клиентами.
-                <br/><br/>
-                Приглашаем к сотрудничеству!</p>
+            <?php while ( have_posts() ) : the_post();
+                the_content();
+            endwhile; ?>
         </div>
     </div>
 </section>
@@ -29,55 +23,47 @@
 <section class="section" id="section3">
     <div id="ancor3"></div>
     <div class="subtitle">
-        <h3>Услуги</h3>
+        <h3><?php echo get_post_meta($post->ID, '_dat_services_metabox_block', true) ? : 'Услуги'; ?></h3>
         <div class="divider"></div>
     </div>
 
-    <div class="subtitle"> <h4> I. Автомобильные перевозки грузов </h4> </div>
+    <div class="subtitle"> <h4> I. <?php echo get_post_meta($post->ID, '_dat_services_subsection1_title', true) ? : 'Автомобильные перевозки грузов'; ?> </h4> </div>
 
     <div class="container clearfix">
         <div class="col-lg-4 col-md-4">
             <figure class="price-table">
                 <div class="heading">
-                    <h4>Комплектные</h4>
+                    <h4><?php echo get_post_meta($post->ID, '_dat_services_complete_title', true) ? : 'Комплектные'; ?></h4>
                 </div>
                 <p class="price-details">
-                    Комплектные 1 <br />
-                    Комплектные 2<br />
-                    Комплектные 3<br />
-                    Комплектные 4<br />
+                    <?php echo get_post_meta($post->ID, '_dat_services_complete_text', true); ?>
                 </p>
             </figure>
         </div>
         <div class="col-lg-4 col-md-4">
             <figure class="price-table">
                 <div class="heading">
-                    <h4>Сборные</h4>
+                    <h4><?php echo get_post_meta($post->ID, '_dat_services_national_title', true) ? : 'Сборные'; ?></h4>
                 </div>
                 <p class="price-details">
-                    Сборные 1<br />
-                    Сборные 2<br />
-                    Сборные 3<br />
-                    Сборные 4<br />
+                    <?php echo get_post_meta($post->ID, '_dat_services_national_text', true); ?>
                 </p>
             </figure>
         </div>
         <div class="col-lg-4 col-md-4">
             <figure class="price-table">
                 <div class="heading">
-                    <h4>Негабаритные</h4>
+                    <h4><?php echo get_post_meta($post->ID, '_dat_services_oversized_title', true) ? : 'Негабаритные'; ?></h4>
                 </div>
                 <p class="price-details">
-                    Негабаритные 1<br />
-                    Негабаритные 2<br />
-                    Негабаритные 3<br />
-                    Негабаритные 4</p>
+                    <?php echo get_post_meta($post->ID, '_dat_services_oversized_text', true); ?>
+                </p>
             </figure>
         </div>
 
         <div class="col-lg-12 col-md-4 col-md-4-storage">
-            <div class="subtitle subtitle-services"> <h4> II. Складское хранение </h4> </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="subtitle subtitle-services"> <h4> II. <?php echo get_post_meta($post->ID, '_dat_services_subsection2_title', true) ? : 'Складское хранение'; ?> </h4> </div>
+            <p><?php echo get_post_meta($post->ID, '_dat_services_subsection2_text', true); ?></p>
         </div>
 
     </div>
@@ -106,14 +92,18 @@
 
 <section class="section white-bg" id="section5">
     <div class="subtitle">
-        <h3>Документы</h3>
+        <h3><?php echo get_post_meta($post->ID, '_dat_documents_metabox_block', true) ? : 'Документы'; ?></h3>
         <div class="divider"></div>
     </div>
     <div class="container clearfix documents">
         <div class="col-md-6">
             <div class="document-link">
-                <a href="<?php echo get_template_directory_uri(); ?>/documents/certificate.jpg" class="button-document" target="_blank" download>Скачать Сертификат</a>
-                <a href="<?php echo get_template_directory_uri(); ?>/documents/requisites.docx" class="button-document document-requisites" target="_blank">Скачать Реквизиты</a>
+                <a href="<?php echo get_post_meta($post->ID, '_dat_certificate_file', true); ?>" class="button-document" target="_blank" download>
+                    <?php echo get_post_meta($post->ID, '_dat_certificate_text', true) ? : 'Скачать Сертификат'; ?>
+                </a>
+                <a href="<?php echo get_post_meta($post->ID, '_dat_requisites_file', true) ?>" class="button-document document-requisites" target="_blank">
+                    <?php echo get_post_meta($post->ID, '_dat_requisites_text', true) ? : 'Скачать Реквизиты'; ?>
+                </a>
             </div>
         </div>
     </div>
@@ -122,27 +112,34 @@
 <section class="section white-bg" id="section6">
     <div id="ancor6"></div>
     <div class="subtitle">
-        <h3>Смежные Компании</h3>
+        <h3><?php echo get_post_meta($post->ID, '_dat_company_metabox_block', true) ? : 'Смежные компании'; ?></h3>
         <div class="divider"></div>
     </div>
     <div class="container clearfix">
         <div class="col-md-12">
             <div class="row">
                 <div id="Container" class="clearfix">
-                    <div class="mix category-1 col-lg-6 col-md-6 related-companies">
+
+                    <?php
+                    foreach (get_post_meta($post->ID, 'company_group', true) as $key=>$company) : ?>
+                    <div class="mix category-1 col-lg-6 col-md-6 <?php if ($key == 0): ?>related-companies<?php endif; ?>">
                         <div class="margin-wrapper">
                             <div>
                                 <div class="info-box-content">
                                     <div class="parent">
-                                        <div class="child left-related-company">
+                                        <div class="child <?php if ($key == 0): ?>left-related-company<?php endif; ?>">
                                             <div class="inner">
                                                 <p>
-                                                    <span class="ip-title">Индивидуальный предприниматель <br/> Бакач Денис Леонардович</span>
+                                                    <span class="ip-title"><?php echo $company['name_company']; ?></span>
                                                 </p>
                                             </div>
                                             <div class="related-document">
-                                                <a href="<?php echo get_template_directory_uri(); ?>/documents/requisites-bakach.docx" class="button-document" target="_blank" download>Скачать Реквизиты</a>
-                                                <a href="#" class="button-document" target="_blank" download>Скачать Свидетельство</a>
+                                                <a href="<?php echo $company['_dat_company_requisites_file'] ? : 'javascript:void(0)'; ?>" class="button-document" target="_blank" download>
+                                                    <?php echo $company['_dat_company_requisites_text'] ? : 'Скачать Реквизиты'; ?>
+                                                </a>
+                                                <a href="<?php echo $company['_dat_company_diploma_file'] ? : 'javascript:void(0)'; ?>" class="button-document" target="_blank" download>
+                                                    <?php echo $company['_dat_company_diploma_text'] ? : 'Скачать Свидетельство'; ?>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -150,27 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mix category-2 col-lg-6 col-md-6">
-                        <div class="margin-wrapper">
-                            <div>
-                                <div class="info-box-content">
-                                    <div class="parent">
-                                        <div class="child">
-                                            <div class="inner">
-                                                <p>
-                                                    <span class="ip-title">Индивидуальный предприниматель <br/> Кирилко Антон Александрович </span>
-                                                </p>
-                                            </div>
-                                            <div class="related-document">
-                                                <a href="<?php echo get_template_directory_uri(); ?>/documents/requisites-kirilko.docx" class="button-document" target="_blank" download>Скачать Реквизиты</a>
-                                                <a href="#" class="button-document" target="_blank" download>Скачать Свидетельство</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
@@ -179,20 +156,16 @@
 
 <section class="section white-bg" id="section7">
     <div class="subtitle">
-        <h3>Партнеры</h3>
+        <h3><?php echo get_post_meta($post->ID, '_dat_partners_title', true) ? : 'Партнеры'; ?></h3>
         <div class="divider"></div>
     </div>
     <div class="container clearfix">
         <div class="col-lg-12 centered client-block owl-carousel owl-theme">
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/typhoon.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/idea-bank.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/belarus-kabel.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/bagoria.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/kronon.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/santa-bremor.jpg" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/belxim-2.png" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/forfor-2.png" /></div>
-            <div class="client"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/inkom-2.png" /></div>
+            <?php foreach (get_post_meta($post->ID, '_dat_partners_item', true) as $value) : ?>
+                <div class="client">
+                    <img alt="" src="<?php echo $value; ?>" />
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
@@ -200,43 +173,27 @@
 <section class="section" id="section8">
     <div id="ancor5"></div>
     <div class="subtitle">
-        <h3>Контакты</h3>
+        <h3><?php echo get_post_meta($post->ID, '_dat_contact_title', true) ? : 'Контакты'; ?></h3>
         <div class="divider"></div>
     </div>
     <div class="container clearfix">
         <div class="col-lg-8 col-md-6 col-sm-6">
             <div id="contact">
                 <?php echo do_shortcode("[ninja_form id=2]"); ?>
-<!--                <form method="post" action="contact.php" name="contactform" id="contactform" autocomplete="off">-->
-<!--                    <fieldset>-->
-<!--                        <label for="name" accesskey="U"><span class="required">Your Name</span></label>-->
-<!--                        <input name="name" type="text" id="name" title="Your Name" />-->
-<!--                        <label for="email" accesskey="E"><span class="required">Email</span></label>-->
-<!--                        <input name="email" type="text" id="email" title="Email" />-->
-<!--                        <label for="comments" accesskey="C"><span class="required">Tell us what you think!</span></label>-->
-<!--                        <textarea name="comments" id="comments" title="Tell us what you think!"></textarea>-->
-<!--                        <input type="submit" class="submit" id="submit" value="Submit" />-->
-<!--                        <span id="message"></span>-->
-<!--                    </fieldset>-->
-<!--                </form>-->
             </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">
             <ul class="contact-list">
-                <li> <a href=""><i class="fa fa-phone"></i>+375(33)6235537</a></li>
-                <li> <a href="mailto:olga.verobey@mail.ru"><i class="fa fa-pencil"></i>olga.verobey@mail.ru</a></li>
-                <li> <a href="skype:antonkakirilka"><i class="fa fa-skype"></i>antonkakirilka</a></li>
-                <li> <a href="http://vk.com/denanttrans" target="_blank"><i class="fa fa-vk"></i>Мы в Контакте</a> </li>
+                <li> <a href=""><i class="fa fa-phone"></i><?php echo get_post_meta($post->ID, '_dat_contact_phone', true); ?></a></li>
+                <li> <a href="mailto:<?php echo get_post_meta($post->ID, '_dat_contact_email', true); ?>"><i class="fa fa-pencil"></i><?php echo get_post_meta($post->ID, '_dat_contact_email', true); ?></a></li>
+                <li> <a href="skype:<?php echo get_post_meta($post->ID, '_dat_contact_skype', true); ?>"><i class="fa fa-skype"></i><?php echo get_post_meta($post->ID, '_dat_contact_skype', true); ?></a></li>
+                <li> <a href="<?php echo get_post_meta($post->ID, '_dat_vk_link', true); ?>" target="_blank"><i class="fa fa-vk"></i><?php echo get_post_meta($post->ID, '_dat_vk_text', true); ?></a> </li>
             </ul>
             <div class="break"></div>
             <div class="row">
                 <div class="col-lg-12 col-md-6">
-                    <p>РБ г.Гродно</p>
-                    <p>
-                        230023 ул. Дзержинского 40 <br>
-                        помещение 25<br>
-                        <span class="road-map"><a href="#roadmap">Карта проезда</a></span>
-                    </p>
+                    <p> <?php echo get_post_meta($post->ID, '_dat_address', true); ?> </p>
+                    <p><span class="road-map"><a href="#roadmap">КАРТА ПРОЕЗДА</a></span></p>
                 </div>
             </div>
         </div>

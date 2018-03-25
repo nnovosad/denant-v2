@@ -75,10 +75,10 @@ function about_post_metabox() {
     ) );
 
     $cmb->add_field( array(
-        'name'       => __( 'Текст', 'cmb2' ),
-        'id'         => $mb_prefix . 'about_text',
-        'desc'       => __( 'Введите текст для раздела "О нас" ', 'cmb2' ),
-        'type'       => 'textarea'
+        'name'       => __( 'Телефон', 'cmb2' ),
+        'id'         => $mb_prefix . 'about_phone',
+        'desc'       => __( 'Введите телефон в верхнем меню', 'cmb2' ),
+        'type'       => 'text'
     ) );
 }
 add_action( 'cmb2_init', 'about_post_metabox' );

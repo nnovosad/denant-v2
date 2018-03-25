@@ -24,11 +24,11 @@
             <div class="headline_cycler_centralizer">
                 <ul class="flexslider">
                     <li class="slide first">
-                        <h2 class="atxt_hl">Мы - транспортно-экспедиционная компания</h2>
+                        <h2 class="atxt_hl"><?php echo get_post_meta($post->ID, '_dat_hero_text_1', true); ?></h2>
                     </li>
                     <li class="slide">
-                        <h2 class="atxt_hl">Которая гарантирует движение</h2>
-                        <p class="atxt_sl">ДенАнтТранс</p>
+                        <h2 class="atxt_hl"><?php echo get_post_meta($post->ID, '_dat_hero_text_2', true); ?></h2>
+                        <p class="atxt_sl"><?php echo get_post_meta($post->ID, '_dat_hero_text_3', true) ? : 'ДентАнтТранс'; ?></p>
                     </li>
                 </ul>
             </div>
@@ -37,8 +37,8 @@
     <a href="#section2" data-title="" id="arrow-down" class="aligncenter">Поехали!</a> </section>
 <!-- start header -->
 <header class="clearfix">
-    <div id="logo"> <a href="index.html">ДенАнтТранс</a> </div>
-    <div class="tagline"><span>ДенАнтТранс</span> <span class="header-phone">+375(152)60-50-66</span> </div>
+    <div id="logo"> <a href="/"><?php bloginfo('name'); ?></a> </div>
+    <div class="tagline"><span><?php bloginfo('name'); ?></span> <span class="header-phone"><?php echo get_post_meta($post->ID, '_dat_about_phone', true); ?></span> </div>
     <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
     <nav>
         <ul id="nav">
