@@ -73,7 +73,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* =3. Typography
 --------------------------------------------------------------------------------------------------------*/
 html { overflow: -moz-scrollbars-vertical; overflow-y: scroll;  height:100%; width:100%; overflow-x:hidden; }
-body { font-size: 15px; font-family:Graphik, Arial, Helvetica, sans-serif; color:#888; background:#f8f8f7; height:100%; width:100%; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing: antialiased;  }
+body { font-size: 15px; font-family:'Lora', serif; color:#888; background:#f8f8f7; height:100%; width:100%; -webkit-text-size-adjust: 100%; -moz-osx-font-smoothing:grayscale; -webkit-font-smoothing: antialiased;  }
 strong { font-weight:700; }
 a, a > * { -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 a, a:hover, a:focus { color:#2b2b2b; text-decoration:none; outline: 0; }
@@ -82,7 +82,7 @@ a, a:hover, a:focus { color:#2b2b2b; text-decoration:none; outline: 0; }
 *:after, *:before { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
 
 a p { color:#888; }
-.uppercase { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; color:#2b2b2b}
+.uppercase { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:2px; font-family: 'Lora', serif; color:#2b2b2b}
 p { padding:0; line-height:1.6; font-weight:400; color: #2b2b2b; font-size: 16px; }
 p.sub-heading { display: block; max-width: 424px; font-size:18px; padding-bottom:31px; padding-right:20px; line-height:1.5 }
 .centered p.sub-heading { padding-bottom:51px; padding-right:0px; margin: 0 auto; }
@@ -92,10 +92,10 @@ p.no-border a { border:0 }
 
 blockquote { padding:12px 0px 22px 0px; margin:0; border:0; position:relative; }
 .element blockquote { padding:10px 0; }
-blockquote p { color:#2b2b2b; font-size:26px; line-height:1.35; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; font-weight:600; font-style:italic; }
-blockquote p.small { border:0; padding-top:3px; margin-top:10px; font-style:normal; font-size:15px;font-family:Graphik, Georgia, "Times New Roman", Times, serif; color:#999; font-weight:400; }
+blockquote p { color:#2b2b2b; font-size:26px; line-height:1.35; font-family: 'Lora', serif; font-weight:600; font-style:italic; }
+blockquote p.small { border:0; padding-top:3px; margin-top:10px; font-style:normal; font-size:15px;font-family:'Lora', serif; color:#999; font-weight:400; }
 blockquote .small::before, blockquote footer::before, blockquote small::before { content: "" }
-blockquote .questionmark { text-align:center; width:100%; font-family:Graphik, Georgia, Verdana, sans-serif; color:#2b2b2b; font-size:72px; line-height:1; font-style:normal; height:52px; }
+blockquote .questionmark { text-align:center; width:100%; font-family:'Lora', serif; color:#2b2b2b; font-size:72px; line-height:1; font-style:normal; height:52px; }
 .dark blockquote .questionmark { color:#fff; opacity:0.7 }
 blockquote .borderline { width:50px; margin:0 auto; margin-top:32px; }
 blockquote .borderline.top { margin-top:0; margin-bottom:20px; }
@@ -120,16 +120,16 @@ a.link:hover::after, p a:hover::after, ul.unordered-list li a:hover::after, ul.c
 
 /* =4. Headings
 --------------------------------------------------------------------------------------------------------*/
-#logo { display:block; display:table; height:52px; position:relative; margin:0; float:left }
-#logo a { display:block; background:url(/wp-content/themes/denant/images/bg-logo@2x.png) center no-repeat; background-size:60px 52px; width:60px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
-.tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; color: #fff; }
+#logo { display:block; display:table; height:100px; position:relative; margin:0; float:left }
+#logo a { display:block; background:url(/wp-content/themes/denant/images/logo-denant.png) center no-repeat; background-size:100px 60px; width:100px; /*try to keep it below 52px*/ height:60px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
+.tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 25px; margin:0px auto; position:relative; display:table; height:50px; margin-top:-1px; color: #fff; }
 .tagline span { display: table-cell; vertical-align: middle; font-size: 18px; }
-h2, h3, h4, h5 { font-family: Graphik, Georgia, Verdana, sans-serif; color:#337ab7; line-height:1.25; font-weight:600; }
+h2, h3, h4, h5 { font-family: 'Lora', serif; color:#337ab7; line-height:1.25; font-weight:600; }
 .dark h2, .dark h3, .dark h4, .dark h5, .dark p { color:#fff; }
 h1 { font-size:60px; line-height:1.2; letter-spacing:-1px; margin-top:0px; }
 h2 { font-size:48px; line-height:1.25; letter-spacing:-1px; margin-top:0px; }
 .element h2 { font-size:40px; }
-h3 { font-size:40px; line-height:1.3; margin:0px; font-family: Graphik, Georgia, Verdana, sans-serif!important; }
+h3 { font-size:40px; line-height:1.3; margin:0px; font-family: 'Lora', serif!important; }
 h4 { font-size:24px; line-height:1.35 }
 h5 { font-size:20px; line-height:1.4 }
 h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {color:#2b2b2b }
@@ -166,10 +166,10 @@ body.blog .more-info h4 { margin-bottom:10px; }
 
 /* =6. Main Nav
 --------------------------------------------------------------------------------------------------------*/
-nav { margin:0px auto; position:relative; display:table; height:52px; float:right; z-index:1000 }
+nav { margin:0 auto; position:relative; display:table; height:52px; float:left; z-index:1000 }
 #nav { display: table-cell!important; vertical-align: middle; padding-top: 10px; }
 #nav li { float:left; margin:0px 0px 0px 30px; cursor:pointer; position:relative }
-#nav li a { color:#fff; font-family: Graphik, Georgia, Verdana, sans-serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
+#nav li a { color:#fff; font-family: 'Lora', serif; font-size:11px; font-weight:600; text-decoration:none; text-transform:uppercase; display:block; letter-spacing:2px; padding:3px 0 5px 0; z-index:100 }
 #nav li:hover a { color:#333; }
 #nav li a { position:relative; color:#fff; font-size: 14px; }
 #nav li a::after { content:""; background:#2b2b2b; bottom:5px; display:block; left:0%; margin-left:-1px; height:1px; position:absolute; -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s; width:0; }
@@ -187,15 +187,15 @@ header { position:relative; z-index: 1099; width:100%; background:#337ab7; paddi
 .section { position:relative; padding:70px 0 0 0; display:block; }
 #ancor2, #ancor3, #ancor4, #ancor5, #ancor6, #ancor7, #ancor8 { position:absolute; top:-78px; }
 #section1 { display:block; height:100%; width:100%; border:0; }
-.section.#fff-bg { background:#fff; }
+.section { background:#fff; }
 .section.header-section { height:510px; padding:0; }
 
-.bg-image-1 { background:url(../images/fullscreen10.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-.bg-image-2 { background:url(../images/fullscreen12.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-.bg-image-3 { background:url(../images/fullscreen.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+/*.bg-image-1 { background:url(../images/fullscreen10.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/
+/*.bg-image-2 { background:url(../images/fullscreen12.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/
+/*.bg-image-3 { background:url(../images/fullscreen.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }*/
 
 /* fullscreen intro */
-.intro { height:100%; width:100%; background:url(/wp-content/themes/denant/images/header-photo.jpg) no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; }
+.intro { height:100%; width:100%; background:url('images/header-photo.jpg') no-repeat center; -webkit-background-size: 100% auto; -moz-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; display:block; }
 
 .parallax { background-attachment:fixed; }
 
@@ -248,8 +248,8 @@ header { position:relative; z-index: 1099; width:100%; background:#337ab7; paddi
 #container .more-info { margin-bottom:0px; }
 body.blog .more-info { text-align:left; padding-bottom:18px; }
 
-.arrow-left, .arrow-right { display:inline-block; float:left; width:45px; color:#2b2b2b; margin-top:8px; height:12px; background:url(../images/arrow-left.png) 7px center no-repeat; background-size:18px 12px; }
-.arrow-right { float:right; background:url(../images/arrow-right.png) 20px center no-repeat; background-size:18px 12px;}
+/*.arrow-left, .arrow-right { display:inline-block; float:left; width:45px; color:#2b2b2b; margin-top:8px; height:12px; background:url(../images/arrow-left.png) 7px center no-repeat; background-size:18px 12px; }*/
+/*.arrow-right { float:right; background:url(../images/arrow-right.png) 20px center no-repeat; background-size:18px 12px;}*/
 a:hover .arrow-left { background-position:left center; }
 a:hover .arrow-right { background-position:right center; }
 .custom-pagination .inactive a:hover .arrow-left { background-position: 7px center; }
@@ -309,81 +309,81 @@ i.fa { margin-right:2px; color:#fff }
 .round-button { border-radius:51%; height:66px; width:66px; display:inline-block; text-align:center; border:2px solid #fff; position:relative; margin:15px 0 10px; }
 .round-button i.fa { color:#fff; font-size:22px; padding:0; margin:0; padding-top:19px; padding-left:5px; }
 
-.icons.map { background:url(../images/icons/bg-map@2x.png) no-repeat center left; background-size:48px 48px; }
-.icons.winner { background:url(../images/icons/bg-winner@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.time { background:url(../images/icons/bg-time@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.pig { background:url(../images/icons/bg-pig@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.adjust { background:url(../images/icons/bg-adjust@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.team { background:url(../images/icons/bg-team@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.works { background:url(../images/icons/bg-works@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.chat { background:url(../images/icons/bg-chat@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.notes { background:url(../images/icons/bg-notes@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.camera { background:url(../images/icons/bg-camera@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.illustration { background:url(../images/icons/bg-illustration@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.social { background:url(../images/icons/bg-social@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.vector { background:url(../images/icons/bg-vector@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.commerce { background:url(../images/icons/bg-commerce@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.search { background:url(../images/icons/bg-search@2x.png) no-repeat center; background-size:48px 48px; }
-.icons.like { background:url(../images/icons/bg-like@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.share { background:url(../images/icons/bg-share@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.document { background:url(../images/icons/bg-document@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.apple { background:url(../images/icons/bg-apple@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.balance { background:url(../images/icons/bg-balance@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.beaker { background:url(../images/icons/bg-beaker@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.beer { background:url(../images/icons/bg-beer@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.books { background:url(../images/icons/bg-books@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.box { background:url(../images/icons/bg-box@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.cake { background:url(../images/icons/bg-cake@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.calcuLator { background:url(../images/icons/bg-calcuLator@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.cd { background:url(../images/icons/bg-cd@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.champagne { background:url(../images/icons/bg-champagne@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.chart { background:url(../images/icons/bg-chart@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.cheese { background:url(../images/icons/bg-cheese@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.court { background:url(../images/icons/bg-court@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.delivery { background:url(../images/icons/bg-delivery@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.dvd { background:url(../images/icons/bg-dvd@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.eco { background:url(../images/icons/bg-eco@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.film { background:url(../images/icons/bg-film@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.grape { background:url(../images/icons/bg-grape@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.hot { background:url(../images/icons/bg-hot@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.house { background:url(../images/icons/bg-house@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.icecream { background:url(../images/icons/bg-icecream@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.joystick { background:url(../images/icons/bg-joystick@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.keynote { background:url(../images/icons/bg-keynote@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.link { background:url(../images/icons/bg-link@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.magic { background:url(../images/icons/bg-magic@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.mail { background:url(../images/icons/bg-mail@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.microphone { background:url(../images/icons/bg-microphone@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.network { background:url(../images/icons/bg-network@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.palette { background:url(../images/icons/bg-palette@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.plaster { background:url(../images/icons/bg-plaster@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.player { background:url(../images/icons/bg-player@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.polaroid { background:url(../images/icons/bg-polaroid@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.printer { background:url(../images/icons/bg-printer@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.pulse { background:url(../images/icons/bg-pulse@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.radio { background:url(../images/icons/bg-radio@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.recorder { background:url(../images/icons/bg-recorder@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.scissors { background:url(../images/icons/bg-scissors@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.select { background:url(../images/icons/bg-select@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.serving { background:url(../images/icons/bg-serving@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.share { background:url(../images/icons/bg-share@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.shop { background:url(../images/icons/bg-shop@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.shopping { background:url(../images/icons/bg-shopping@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.smartphone { background:url(../images/icons/bg-smartphone@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.sofa { background:url(../images/icons/bg-sofa@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.syringe { background:url(../images/icons/bg-syringe@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.tape { background:url(../images/icons/bg-tape@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.target { background:url(../images/icons/bg-target@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.television { background:url(../images/icons/bg-television@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.video { background:url(../images/icons/bg-video@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.walkman { background:url(../images/icons/bg-walkman@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.zoom { background:url(../images/icons/bg-zoom@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.tags { background:url(../images/icons/bg-tags@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.quote { background:url(../images/icons/bg-quote@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.certified { background:url(../images/icons/bg-certified@2x.png) center no-repeat; background-size:48px 48px; }
-.icons.mediation { background:url(../images/icons/bg-mediation@2x.png) center no-repeat; background-size:48px 48px; }
+/*.icons.map { background:url(../images/icons/bg-map@2x.png) no-repeat center left; background-size:48px 48px; }*/
+/*.icons.winner { background:url(../images/icons/bg-winner@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.time { background:url(../images/icons/bg-time@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.pig { background:url(../images/icons/bg-pig@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.adjust { background:url(../images/icons/bg-adjust@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.team { background:url(../images/icons/bg-team@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.works { background:url(../images/icons/bg-works@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.chat { background:url(../images/icons/bg-chat@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.notes { background:url(../images/icons/bg-notes@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.camera { background:url(../images/icons/bg-camera@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.illustration { background:url(../images/icons/bg-illustration@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.social { background:url(../images/icons/bg-social@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.vector { background:url(../images/icons/bg-vector@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.commerce { background:url(../images/icons/bg-commerce@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.search { background:url(../images/icons/bg-search@2x.png) no-repeat center; background-size:48px 48px; }*/
+/*.icons.like { background:url(../images/icons/bg-like@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.share { background:url(../images/icons/bg-share@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.document { background:url(../images/icons/bg-document@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.apple { background:url(../images/icons/bg-apple@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.balance { background:url(../images/icons/bg-balance@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.beaker { background:url(../images/icons/bg-beaker@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.beer { background:url(../images/icons/bg-beer@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.books { background:url(../images/icons/bg-books@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.box { background:url(../images/icons/bg-box@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.cake { background:url(../images/icons/bg-cake@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.calcuLator { background:url(../images/icons/bg-calcuLator@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.cd { background:url(../images/icons/bg-cd@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.champagne { background:url(../images/icons/bg-champagne@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.chart { background:url(../images/icons/bg-chart@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.cheese { background:url(../images/icons/bg-cheese@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.court { background:url(../images/icons/bg-court@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.delivery { background:url(../images/icons/bg-delivery@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.dvd { background:url(../images/icons/bg-dvd@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.eco { background:url(../images/icons/bg-eco@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.film { background:url(../images/icons/bg-film@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.grape { background:url(../images/icons/bg-grape@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.hot { background:url(../images/icons/bg-hot@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.house { background:url(../images/icons/bg-house@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.icecream { background:url(../images/icons/bg-icecream@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.joystick { background:url(../images/icons/bg-joystick@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.keynote { background:url(../images/icons/bg-keynote@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.link { background:url(../images/icons/bg-link@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.magic { background:url(../images/icons/bg-magic@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.mail { background:url(../images/icons/bg-mail@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.microphone { background:url(../images/icons/bg-microphone@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.network { background:url(../images/icons/bg-network@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.palette { background:url(../images/icons/bg-palette@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.plaster { background:url(../images/icons/bg-plaster@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.player { background:url(../images/icons/bg-player@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.polaroid { background:url(../images/icons/bg-polaroid@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.printer { background:url(../images/icons/bg-printer@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.pulse { background:url(../images/icons/bg-pulse@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.radio { background:url(../images/icons/bg-radio@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.recorder { background:url(../images/icons/bg-recorder@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.scissors { background:url(../images/icons/bg-scissors@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.select { background:url(../images/icons/bg-select@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.serving { background:url(../images/icons/bg-serving@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.share { background:url(../images/icons/bg-share@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.shop { background:url(../images/icons/bg-shop@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.shopping { background:url(../images/icons/bg-shopping@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.smartphone { background:url(../images/icons/bg-smartphone@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.sofa { background:url(../images/icons/bg-sofa@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.syringe { background:url(../images/icons/bg-syringe@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.tape { background:url(../images/icons/bg-tape@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.target { background:url(../images/icons/bg-target@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.television { background:url(../images/icons/bg-television@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.video { background:url(../images/icons/bg-video@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.walkman { background:url(../images/icons/bg-walkman@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.zoom { background:url(../images/icons/bg-zoom@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.tags { background:url(../images/icons/bg-tags@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.quote { background:url(../images/icons/bg-quote@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.certified { background:url(../images/icons/bg-certified@2x.png) center no-repeat; background-size:48px 48px; }*/
+/*.icons.mediation { background:url(../images/icons/bg-mediation@2x.png) center no-repeat; background-size:48px 48px; }*/
 
-.dark .icons.quote { background:url(../images/bg-quote@2x.png) center no-repeat; background-size:48px 48px; }
+/*.dark .icons.quote { background:url(../images/bg-quote@2x.png) center no-repeat; background-size:48px 48px; }*/
 
 .icons { position:relative; height:48px; width:48px; float:left; margin-top:14px; margin-bottom:20px; }
 .centered .icons { float:none; display:inline-block; height:48px; width:48px; margin-top:5px; margin-bottom:14px; z-index:2; }
@@ -397,7 +397,7 @@ i.fa { margin-right:2px; color:#fff }
 --------------------------------------------------------------------------------------------------------*/
 .full_width_gallery { width: 100%; margin-top: 5px; }
 .centralizer { margin: 0 auto; text-align: center; font-size: 0;}
-.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #337ab7; border:solid 2px  #337ab7; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: Graphik, "Open Sans", Arial, Helvetica, sans-serif; }
+.button, .button:focus, .send-btn, .send-btn:focus { display: block; color: #337ab7; border:solid 2px  #337ab7; padding: 13px 25px 14px; margin: 10px 0 10px 0; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:2px; display: inline-block; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; z-index:1; position:relative; -webkit-text-shadow:none !important; text-shadow:none !important; font-style:normal; font-family: 'Lora', serif; }
 .centered .button { margin-left:5px; margin-right:5px; }
 .button:hover, .send-btn:hover { background:#337ab7; color:#fff; }
 
@@ -481,14 +481,14 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 
 /* =15. Ajax
 --------------------------------------------------------------------------------------------------------*/
-.close-ajax { display: inline-block; cursor: pointer; background:url(../images/icons/bg-close@2x.png) no-repeat center #fff; background-size:48px 48px; width:64px; height:64px; text-indent:-9999px; text-decoration:none; border:0; bottom:0px; position:absolute; margin-left:-32px; left:50%; bottom:-110px; }
+/*.close-ajax { display: inline-block; cursor: pointer; background:url(../images/icons/bg-close@2x.png) no-repeat center #fff; background-size:48px 48px; width:64px; height:64px; text-indent:-9999px; text-decoration:none; border:0; bottom:0px; position:absolute; margin-left:-32px; left:50%; bottom:-110px; }*/
 .close-ajax:hover {border:0 !important; }
 .close-ajax:hover::after { width:0; }
 #ajax-content .flex-next, #ajax-content .flex-prev { background-color: rgba(46,46,47,0.4); }
 #loading { min-height: 800px; text-align: center; vertical-align: middle; position: relative; }
 #loading img { top: 100px; position: absolute; width:auto !important; margin:0 auto; display:inline-block }
-.prev-ajax { background-image: url(../images/icons/bg-prev@2x.png); background-size:48px 48px; background-color: transparent; border: none; height: 48px; width: 48px; box-shadow: none; left: -60px; top: 0; position: absolute; color: transparent; position: absolute; cursor: pointer; }
-.next-ajax { background-image: url(../images/icons/bg-next@2x.png); background-size:48px 48px; background-color: transparent; border: none; height: 48px; width: 48px; box-shadow: none; right: -60px; top: 0; position: absolute; color: transparent; position: absolute; cursor: pointer; }
+/*.prev-ajax { background-image: url(../images/icons/bg-prev@2x.png); background-size:48px 48px; background-color: transparent; border: none; height: 48px; width: 48px; box-shadow: none; left: -60px; top: 0; position: absolute; color: transparent; position: absolute; cursor: pointer; }*/
+/*.next-ajax { background-image: url(../images/icons/bg-next@2x.png); background-size:48px 48px; background-color: transparent; border: none; height: 48px; width: 48px; box-shadow: none; right: -60px; top: 0; position: absolute; color: transparent; position: absolute; cursor: pointer; }*/
 
 .ajax-content { background:#f8f8f7; position:relative; margin-top:-120px; margin-bottom:77px; }
 .ajax-content .container { margin-bottom:20px; padding-top:120px; padding-bottom:110px; }
@@ -770,4 +770,14 @@ h4 {
 
 p, h3 {
     color: #fff!important;
+}
+
+.flags {
+    padding-left: 50px;
+}
+
+.flags img {
+    width: 32px;
+    display: inline;
+    margin-right: 15px;
 }

@@ -87,7 +87,6 @@
             </div>
         </div>
     </div>
-    </div>
 </section>
 
 <section class="section white-bg" id="section5">
