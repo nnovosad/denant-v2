@@ -40,16 +40,16 @@
     <div id="logo"> <a href="/"><?php bloginfo('name'); ?></a> </div>
     <div class="tagline">
         <span><?php bloginfo('name'); ?></span> <span class="header-phone"><?php echo get_post_meta($post->ID, '_dat_about_phone', true); ?></span>
-        <span class="flags">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/ru.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/en.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/pl.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/fr.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/de.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/it.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/fr.png">
-            <img src="<?php echo get_template_directory_uri() ?>/images/flags/ch.png">
-        </span>
+<!--        <span class="flags">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/ru.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/en.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/pl.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/fr.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/de.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/it.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/fr.png">-->
+<!--            <img src="--><?php //echo get_template_directory_uri() ?><!--/images/flags/ch.png">-->
+<!--        </span>-->
     </div>
     <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
     <nav>
