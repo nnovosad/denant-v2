@@ -35,9 +35,11 @@
                 <div class="heading">
                     <h4><?php echo get_post_meta($post->ID, '_dat_services_complete_title', true) ? : 'Комплектные'; ?></h4>
                 </div>
+                <?php if (!empty(get_post_meta($post->ID, '_dat_services_complete_text', true))): ?>
                 <p class="price-details">
                     <?php echo get_post_meta($post->ID, '_dat_services_complete_text', true); ?>
                 </p>
+                <?php endif; ?>
             </figure>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -45,9 +47,11 @@
                 <div class="heading">
                     <h4><?php echo get_post_meta($post->ID, '_dat_services_national_title', true) ? : 'Сборные'; ?></h4>
                 </div>
+                <?php if (!empty(get_post_meta($post->ID, '_dat_services_national_text', true))): ?>
                 <p class="price-details">
                     <?php echo get_post_meta($post->ID, '_dat_services_national_text', true); ?>
                 </p>
+                <?php endif; ?>
             </figure>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -55,9 +59,11 @@
                 <div class="heading">
                     <h4><?php echo get_post_meta($post->ID, '_dat_services_oversized_title', true) ? : 'Негабаритные'; ?></h4>
                 </div>
+                <?php if (!empty(get_post_meta($post->ID, '_dat_services_national_text', true))): ?>
                 <p class="price-details">
-                    <?php echo get_post_meta($post->ID, '_dat_services_oversized_text', true); ?>
+                    <?php echo get_post_meta($post->ID, '_dat_services_national_text', true); ?>
                 </p>
+                <?php endif; ?>
             </figure>
         </div>
 
