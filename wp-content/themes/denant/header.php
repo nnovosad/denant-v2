@@ -53,7 +53,7 @@
     </div>
     <div id="nav-button"> <span class="nav-bar"></span> <span class="nav-bar"></span> <span class="nav-bar"></span> </div>
     <nav>
-        <ul id="nav">
+        <ul class="nav">
             <li><a href="#section2">О нас</a> </li>
             <li><a href="#section3">Услуги</a> </li>
             <li><a href="#section4">Сотрудники</a> </li>

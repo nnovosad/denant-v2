@@ -61,7 +61,7 @@
                 </div>
                 <?php if (!empty(get_post_meta($post->ID, '_dat_services_national_text', true))): ?>
                 <p class="price-details">
-                    <?php echo get_post_meta($post->ID, '_dat_services_national_text', true); ?>
+                    <?php echo get_post_meta($post->ID, '_dat_services_oversized_text', true); ?>
                 </p>
                 <?php endif; ?>
             </figure>
@@ -103,10 +103,10 @@
     <div class="container clearfix documents">
         <div class="col-md-6">
             <div class="document-link">
-                <a href="<?php echo get_post_meta($post->ID, '_dat_certificate_file', true); ?>" class="button-document" target="_blank" download>
+                <a href="<?php echo get_post_meta($post->ID, '_dat_certificate_file', true); ?>" class="button-document" download>
                     <?php echo get_post_meta($post->ID, '_dat_certificate_text', true) ? : 'Скачать Сертификат'; ?>
                 </a>
-                <a href="<?php echo get_post_meta($post->ID, '_dat_requisites_file', true) ?>" class="button-document document-requisites" target="_blank">
+                <a href="<?php echo get_post_meta($post->ID, '_dat_requisites_file', true) ?>" class="button-document document-requisites" download>
                     <?php echo get_post_meta($post->ID, '_dat_requisites_text', true) ? : 'Скачать Реквизиты'; ?>
                 </a>
             </div>
@@ -139,10 +139,10 @@
                                                 </p>
                                             </div>
                                             <div class="related-document">
-                                                <a href="<?php echo $company['_dat_company_requisites_file'] ? : 'javascript:void(0)'; ?>" class="button-document" target="_blank" download>
+                                                <a href="<?php echo $company['_dat_company_requisites_file'] ? : 'javascript:void(0)'; ?>" class="button-document" download>
                                                     <?php echo $company['_dat_company_requisites_text'] ? : 'Скачать Реквизиты'; ?>
                                                 </a>
-                                                <a href="<?php echo $company['_dat_company_diploma_file'] ? : 'javascript:void(0)'; ?>" class="button-document" target="_blank" download>
+                                                <a href="<?php echo $company['_dat_company_diploma_file'] ? : 'javascript:void(0)'; ?>" class="button-document" download>
                                                     <?php echo $company['_dat_company_diploma_text'] ? : 'Скачать Свидетельство'; ?>
                                                 </a>
                                             </div>
