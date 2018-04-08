@@ -39,8 +39,9 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
 }
 
 #contact input[type=button], #contact input[type=submit] {
+    margin-top: 25px;
     padding:5px 15px;
-    background:#ccc;
+    background:#fff;
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
