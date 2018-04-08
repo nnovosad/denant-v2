@@ -184,7 +184,8 @@
     <div class="container clearfix">
         <div class="col-lg-8 col-md-6 col-sm-6">
             <div id="contact">
-                <?php echo do_shortcode("[ninja_form id=2]"); ?>
+<!--                --><?php //echo do_shortcode("[ninja_form id=2]"); ?>
+                <?php echo do_shortcode("[contact-form-7 id=\"92\" title=\"Contact form 1\"]"); ?>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-6">

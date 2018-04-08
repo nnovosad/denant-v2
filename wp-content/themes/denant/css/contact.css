@@ -31,14 +31,14 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
   /*background-color: #fff;*/
   border: 1px solid #cecece;
   margin-right: 0;
-  width: 50%;
+  width: 100%;
  /* font: 15px 'Inconsolata', Georgia, "Times New Roman", Times, serif;*/
   padding: 10px;
   background: #F6F6f6;
   border-radius: 10px;
 }
 
-#contact input[type=button] {
+#contact input[type=button], #contact input[type=submit] {
     padding:5px 15px;
     background:#ccc;
     border:0 none;
@@ -48,7 +48,7 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
 }
 
 #contact textarea {
-    width: 50%!important;
+    width: 100%!important;
 }
 
 .nf-form-title {
@@ -62,4 +62,8 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
 
 .nf-field-label {
     color: #fff!important;
+}
+
+.div.wpcf7-response-output {
+    color:#fff!important;
 }
