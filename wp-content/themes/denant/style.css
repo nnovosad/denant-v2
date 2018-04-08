@@ -181,10 +181,10 @@ nav { margin:0 auto; position:relative; display:table; height:52px; float:left; 
 
 /* =7. Main Content
 --------------------------------------------------------------------------------------------------------*/
-header { position:relative; z-index: 1099; width:100%; background:#337ab7; padding:16px 35px 14px; }
+header { position:relative; z-index: 1099; width:100%; background:#337ab7; padding:1px 35px 1px; }
 #undefined-sticky-wrapper { /*position:fixed;*/ z-index:200; width:100% }
 .container { position:relative; margin:0 auto; }
-.section { position:relative; padding:70px 0 0 0; display:block; }
+.section { position:relative; padding:80px 0 0 0; display:block; }
 #ancor2, #ancor3, #ancor4, #ancor5, #ancor6, #ancor7, #ancor8 { position:absolute; top:-78px; }
 #section1 { display:block; height:100%; width:100%; border:0; }
 .section { background:#fff; }
@@ -831,7 +831,7 @@ p, h3 {
 .nav {
     display: table-cell!important;
     vertical-align: middle;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 .nav li a:hover::after {
@@ -864,5 +864,5 @@ p, h3 {
 }
 
 .active-item {
-    text-decoration: underline!important;
+    color: #2b2b2b!important;
 }
