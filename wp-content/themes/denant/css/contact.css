@@ -65,6 +65,6 @@ textarea, select, input:not([type="radio"]):not([type="checkbox"]):not([type="hi
     color: #fff!important;
 }
 
-.div.wpcf7-response-output {
+.div.wpcf7-response-output, div.wpcf7-mail-sent-ok {
     color:#fff!important;
 }
