@@ -50,6 +50,12 @@ jQuery(function($) {
 
     });
 
+    $(document).ready(function(){
+        $(".toggle-text").click(function(){
+            $(".menu").slideToggle(700);
+        });
+    });
+
     //$(document).ready(function(){
     //    if(window.location.hash) { //If page loads with hash
     //        scrollToID(window.location.hash);

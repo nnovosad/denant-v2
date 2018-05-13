@@ -137,6 +137,8 @@ jQuery(function($) {
 
 
     $(document).ready(function () {
-        $("header").sticky({topSpacing: 0});
+        if (screen.width > 768) {
+            $("header").sticky({topSpacing: 0});
+        }
     });
 });
