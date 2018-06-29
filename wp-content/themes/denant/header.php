@@ -31,7 +31,7 @@
                     </li>
                     <li class="slide">
                         <h2 class="atxt_hl"><?php echo get_post_meta($post->ID, '_dat_hero_text_2', true); ?></h2>
-                        <p class="atxt_sl"><?php echo get_post_meta($post->ID, '_dat_hero_text_3', true) ? : 'ДентАнтТранс'; ?></p>
+                        <p class="atxt_sl"><?php echo get_post_meta($post->ID, '_dat_hero_text_3', true) ? : 'ДенАнтТранс'; ?></p>
                     </li>
                 </ul>
             </div>
